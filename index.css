@@ -3,6 +3,15 @@
     background: brown;
     color: #fff;
     position: relative;
+    display: grid;
+}
+.card .toggle {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+h1 {
+    padding: 25px 0 0 25px;
+    margin: 0;
 }
 .card > div {
     padding: 25px;

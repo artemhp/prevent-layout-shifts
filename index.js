@@ -1,4 +1,3 @@
-document.querySelector('.toggle').classList.add('hidden');
 document.querySelector('.btn').addEventListener('click', () => {
     document.querySelectorAll('.toggle').forEach(el => {
         if(el.classList.contains('hidden')) {
