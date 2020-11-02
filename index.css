@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    background: brown;
+    color: #fff;
+    position: relative;
+}
+.card > div {
+    padding: 25px;
+}
+
+.img {
+    max-width: 100%;
+    display: block;
+    margin-top: 15px;
+}
+
+.btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: currentColor;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
